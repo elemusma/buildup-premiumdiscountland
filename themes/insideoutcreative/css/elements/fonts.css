@@ -1,0 +1,146 @@
+.text-white * {
+  color: white;
+}
+
+.text-white a:hover {
+  color: white;
+}
+
+.text-accent,
+a {
+  color: var(--accent-primary);
+}
+
+.text-accent-secondary {
+  color: var(--accent-secondary);
+}
+
+.text-accent-tertiary {
+  color: var(--accent-tertiary);
+}
+
+.text-gray {
+  color: #585556;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 3px black;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+a.text-black:hover {
+  color: black;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.ls-1 {
+  letter-spacing: 1em;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.wp-block-quote {
+  border-left: 2px solid;
+  margin: 0 0 1.75em;
+  padding-left: 1em;
+  font-style: italic;
+  font-size: 18px;
+}
+
+html,
+body {
+  font-family: "proxima_novaregular";
+}
+
+.light {
+  font-family: "proxima_nova_altlight";
+}
+
+.thin {
+  font-family: "proxima_novathin";
+}
+
+.bold,
+strong {
+  font-family: "proxima_novabold";
+}
+
+/* .arrows li {
+  position: relative;
+  list-style: none;
+  color: #a4a3a3;
+  font-style: italic;
+  font-family: "proxima_novabold";
+} */
+
+/* .arrows li:before {
+  content: "";
+  background: url('https://insideoutcreative.io/wp-content/uploads/2023/02/Arrow-Right-Gold.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+}
+
+blockquote {
+  font-size: 90%;
+} */
+
+/* .cormorant-garamond {
+  font-family: cormorant-garamond, serif;
+}
+
+.cormorant-garamond.bold {
+  font-family: cormorant-garamond, serif;
+} */
+
+h1 {
+  font-size: 6vw;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "proxima_novabold";
+  margin:0px;
+  color:var(--accent-secondary);
+}
+
+h3 {
+	font-size:1.5rem;
+	color: var(--accent-primary);
+	letter-spacing:.2em;
+	font-style:italic;
+	margin:0px;
+}
+
+p {
+  line-height: 1.75;
+}
+@media only screen and (max-width:768px) {
+	h2 {
+    font-size: 2.25rem;
+}
+}
+/* 
+font-family: cormorant-garamond, serif; 
+font-weight:300;
+font-weight:400;
+font-weight:500;
+font-weight:600;
+font-weight:700;
+*/
