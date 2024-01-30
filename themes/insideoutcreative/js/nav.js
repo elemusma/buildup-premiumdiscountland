@@ -3,7 +3,7 @@ let navMenu = document.querySelector('#navItems');
 let navMenuToggle = document.querySelector('#navToggle');
 let navMenuOverlay = document.querySelector('#navMenuOverlay');
 let navMenuClose = document.querySelector('#navMenuClose');
-let header = document.querySelector('header');
+let nav = document.querySelector('nav');
 let blankSpace = document.querySelector('.blank-space');
 
 let logoMain = document.querySelector('#logo-main')
@@ -12,9 +12,9 @@ let logoSecondary = document.querySelector('#logo-secondary')
 window.addEventListener("scroll", parallaxEffect);
 
 function parallaxEffect() {
-    blankSpace.style.height = header.offsetHeight + "px";
-    header.classList.add('position-fixed');
-    header.classList.remove('position-relative');
+    blankSpace.style.height = nav.offsetHeight + "px";
+    nav.classList.add('position-fixed');
+    nav.classList.remove('position-relative');
 
     if (scrollY < 299) {
         logoMain.style.width = "205px"
@@ -31,9 +31,9 @@ for (i = 0; i < menuItems.length; i++) {
 }
 // ###################################################
 
-navMenuClose.addEventListener('click', closeMenu);
-navMenuOverlay.addEventListener('click', closeMenu);
-navMenuToggle.addEventListener('click', openMenu);
+// navMenuClose.addEventListener('click', closeMenu);
+// navMenuOverlay.addEventListener('click', closeMenu);
+// navMenuToggle.addEventListener('click', openMenu);
 
 function openMenu() {
     setTimeout(function () {

@@ -22,9 +22,9 @@ wp_head();
 <?php
 if(get_field('body','options')) { the_field('body','options'); }
 if(get_field('body_code')) { the_field('body_code'); }
-// echo '<div class="blank-space"></div>';
+echo '<div class="blank-space"></div>';
 
-echo '<nav class="position-fixed w-100 box-shadow" style="top:0;left:0;z-index:3;background: rgba(255,255,255);padding:15px 0px 25px;">';
+echo '<nav class="position-relative w-100 box-shadow" style="top:0;left:0;z-index:3;background: rgba(255,255,255);padding:15px 0px 25px;">';
 echo '<div class="container">';
 echo '<div class="row align-items-center justify-content-end">';
 

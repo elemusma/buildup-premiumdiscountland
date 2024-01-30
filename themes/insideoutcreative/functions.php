@@ -12,6 +12,8 @@ function register_acf_blocks() {
     register_block_type( __DIR__ . '/blocks/testimonials' );
     register_block_type( __DIR__ . '/blocks/gallery-carousel' );
     register_block_type( __DIR__ . '/blocks/tabs' );
+    register_block_type( __DIR__ . '/blocks/locations' );
+    register_block_type( __DIR__ . '/blocks/listings' );
 }
 
 function down_to_earth_investments_stylesheets() {
@@ -85,6 +87,7 @@ function down_to_earth_investments_stylesheets_footer() {
     // general
 	// wp_enqueue_script('nav-js', get_theme_file_uri('/js/nav.js'));
 	wp_enqueue_script('popup-js', get_theme_file_uri('/js/popup.js'));
+	wp_enqueue_script('nav-js', get_theme_file_uri('/js/nav.js'));
 	
 	if(is_single()){
 		wp_enqueue_script('blog-js', get_theme_file_uri('/js/blog.js'));

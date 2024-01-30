@@ -111,31 +111,34 @@ blockquote {
 
 h1 {
   font-size: 6vw;
+  margin: 0px;
 }
 
 h2 {
   font-size: 3rem;
   font-family: "proxima_novabold";
-  margin:0px;
-  color:var(--accent-secondary);
+  margin: 0px;
+  color: var(--accent-secondary);
 }
 
 h3 {
-	font-size:1.5rem;
-	color: var(--accent-primary);
-	letter-spacing:.2em;
-	font-style:italic;
-	margin:0px;
+  font-size: 1.5rem;
+  color: var(--accent-primary);
+  letter-spacing: .2em;
+  font-style: italic;
+  margin: 0px;
 }
 
 p {
   line-height: 1.75;
 }
+
 @media only screen and (max-width:768px) {
-	h2 {
+  h2 {
     font-size: 2.25rem;
+  }
 }
-}
+
 /* 
 font-family: cormorant-garamond, serif; 
 font-weight:300;
