@@ -47,7 +47,7 @@ figure.wp-block-image.size-full {
     position: relative;
 }
 
-.img-hover:after {
+/* .img-hover:after {
     content: "+";
     position: absolute;
     width: 40px;
@@ -66,7 +66,7 @@ figure.wp-block-image.size-full {
     opacity: 0;
     transition: all .25s ease-in-out;
     pointer-events: none;
-}
+} */
 
 /* image hover with favicon instead of plus sign */
 /* .img-hover:after {

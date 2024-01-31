@@ -73,7 +73,8 @@ body {
 }
 
 .bold,
-strong {
+strong,
+b {
   font-family: "proxima_novabold";
 }
 
@@ -109,19 +110,22 @@ blockquote {
   font-family: cormorant-garamond, serif;
 } */
 
-h1 {
-  font-size: 6vw;
+h1,
+.h1 {
+  font-size: 4vw;
   margin: 0px;
 }
 
-h2 {
+h2,
+.h2 {
   font-size: 3rem;
   font-family: "proxima_novabold";
   margin: 0px;
   color: var(--accent-secondary);
 }
 
-h3 {
+h3,
+.h3 {
   font-size: 1.5rem;
   color: var(--accent-primary);
   letter-spacing: .2em;

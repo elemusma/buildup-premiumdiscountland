@@ -34,7 +34,7 @@ if( $featured_posts ):
             // echo esc_url( $permalink );
             // echo esc_html( $title );
 
-        echo '<div class="col-md-5" style="padding:5px;">';
+        echo '<div class="col-md-4" style="padding:5px;">';
         echo '<a href="' . $permalink . '" class="position-relative bg-white box-shadow d-block" style="text-decoration:none;">';
 
         echo '<div class="position-relative overflow-h img-hover">';
@@ -42,12 +42,12 @@ if( $featured_posts ):
 
         echo wp_get_attachment_image($featured_image_id,'full','',[
             'class' => 'w-100 d-block img-gallery',
-            'style' => 'height:300px;object-fit:cover;'
+            'style' => 'height:265px;object-fit:cover;'
         ]);
 
         // echo '</a>';
 
-        echo '<div style="font-size:1.5rem;top:25px;left:25px;background:#275918;padding:15px 25px;" class="position-absolute text-white">For Sale</div>';
+        echo '<div style="font-size:1.25rem;top:25px;left:25px;background:#275918;padding:10px 20px;" class="position-absolute text-white">For Sale</div>';
 
         echo '<div style="font-size:1rem;bottom:25px;right:25px;background:#FF7F00;padding:5px 15px;" class="position-absolute text-white">' . esc_html( $price ) . '</div>';
 

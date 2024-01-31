@@ -14,6 +14,7 @@ function register_acf_blocks() {
     register_block_type( __DIR__ . '/blocks/tabs' );
     register_block_type( __DIR__ . '/blocks/locations' );
     register_block_type( __DIR__ . '/blocks/listings' );
+    register_block_type( __DIR__ . '/blocks/content-and-image' );
 }
 
 function down_to_earth_investments_stylesheets() {
@@ -144,7 +145,7 @@ function smartwp_remove_wp_block_library_css(){
 		wp_dequeue_style( 'wc-block-style' ); // Remove WooCommerce block CSS
 	}
 } 
-add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
+// add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
 
 // add_filter('show_admin_bar', '__return_false');
 

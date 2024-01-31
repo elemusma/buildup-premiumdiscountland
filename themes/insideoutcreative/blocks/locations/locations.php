@@ -35,7 +35,7 @@ if( $featured_posts ):
 
             echo '<div class="col-md-6" style="padding:5px;">';
         echo '<div class="position-relative overflow-h img-hover">';
-        echo '<a href="' . $permalink . '" data-lightbox="image-inventory" style="" class="d-block">';
+        echo '<a href="' . $permalink . '" style="" class="d-block">';
 
         echo wp_get_attachment_image($featured_image_id,'full','',[
             'class' => 'w-100 d-block img-gallery',
