@@ -3,3 +3,7 @@
         height: 215px !important;
     }
 }
+
+.col-listings:hover .listings-overlay {
+    opacity: 0 !important;
+}

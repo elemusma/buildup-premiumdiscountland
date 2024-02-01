@@ -34,7 +34,7 @@ if( $featured_posts ):
             // echo esc_url( $permalink );
             // echo esc_html( $title );
 
-        echo '<div class="col-md-4" style="padding:5px;">';
+        echo '<div class="col-md-4 col-listings" style="padding:5px;">';
         echo '<a href="' . $permalink . '" class="position-relative bg-white box-shadow d-block" style="text-decoration:none;">';
 
         echo '<div class="position-relative overflow-h img-hover">';
@@ -45,6 +45,7 @@ if( $featured_posts ):
             'style' => 'height:265px;object-fit:cover;'
         ]);
 
+echo '<div class="bg-black w-100 h-100 position-absolute listings-overlay" style="top:0px;left:0px;opacity:.45;transition:all .25s ease-in-out;pointer-events:none;"></div>';
         // echo '</a>';
 
         echo '<div style="font-size:1.25rem;top:25px;left:25px;background:#275918;padding:10px 20px;" class="position-absolute text-white">For Sale</div>';
